@@ -2,7 +2,7 @@ import os
 import pyperclip
 
 # Hard-coded model name
-MODEL_NAME = "gpt-5-csv-agent"  # Change this to the desired model name
+MODEL_NAME = "grok-4-csv-agent"  # Change this to the desired model name
 
 # Directories
 PROMPTS_CSV_DIR = "prompts_csv"
