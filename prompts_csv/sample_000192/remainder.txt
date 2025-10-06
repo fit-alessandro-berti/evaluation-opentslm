@@ -1,0 +1,16 @@
+You are an expert cardiologist analyzing an ECG (electrocardiogram). 
+
+Clinical Context: 73-year-old male patient. 12-lead ECG. clinical recording. recorded with AT-6 C 5.5. Signal quality: baseline drift noted, static noise present, burst noise present, electrode artifacts present. extra beats detected during recording. pacemaker present.
+
+Your task is to examine the ECG signal and answer the following medical question:
+
+Question: Does this ECG show normal heart axis?
+
+Instructions:
+- Begin by analyzing the time series without assuming a specific answer.
+- Think step-by-step about what the observed patterns suggest regarding the cardiac condition.
+- Write your rationale as a single, natural paragraph — do not use bullet points, numbered steps, or section headings.
+- Do **not** mention any final answer until the very end.
+- Consider the ECG morphology, intervals, and any abnormalities that relate to the question.
+
+# Time Series (from dataset arrays, 100 Hz, 10 s)

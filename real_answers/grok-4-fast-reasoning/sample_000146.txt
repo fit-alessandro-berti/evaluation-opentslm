@@ -1,0 +1,5 @@
+The provided ECG time series captures only a brief initial segment of cardiac activity amid significant artifacts, noise, and baseline issues, with the remainder flatlined at zero, limiting reliable interval measurements and morphology assessment in this 85-year-old patient with a pacemaker and extra beats noted clinically; the early deflections show a small initial positive wave possibly representing a P wave in limb leads like II, followed by a broad, notched QRS complex spanning approximately 50-70 ms with slurred upstrokes in lateral leads (e.g., I, aVL, V5-V6 showing sustained positivity from 0.02-0.07 s without sharp transitions) and a brief negative excursion at 0.04 s suggestive of incomplete conduction delay rather than full block, while the P wave lacks clear broadening or deep negative terminal deflection in V1 to indicate left atrial enlargement, and the pacemaker presence further complicates interpretation as paced rhythms can mimic bundle branch patterns without true underlying pathology. **Uncertain symptoms**
+
+## Explanation
+
+The reasoning process begins by recognizing the limitations of

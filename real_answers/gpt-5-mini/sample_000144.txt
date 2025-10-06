@@ -1,0 +1,3 @@
+The available ECG segment contains only an initial brief waveform followed by long stretches of flat (zero) data and is affected by baseline drift, static and electrode artifact and a noted pacemaker; with a 100 Hz sampling rate (10 ms resolution) the observed beat shows a sharp QRS-like deflection around 60 ms but the tracing returns to zeros by ~120 ms so the ST–T segment and T-wave termination are not recorded for this beat, making reliable measurement of the QT interval impossible (QRS appears narrow but the repolarization phase needed to define QT is absent and artifacts/pacing further confound interpretation). 
+
+Final answer: Cannot determine.
