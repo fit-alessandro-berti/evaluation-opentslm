@@ -1,7 +1,8 @@
 import os
 
 # Configuration
-EVAL_DIR = "cross_evaluation/gpt-5_vs_gpt-5-mini"  # Change to the desired evaluation folder
+EVAL_DIR = "cross_evaluation/gpt-5-csv-agent_vs_gpt-5-mini-csv-agent"  # Change to the desired evaluation folder
+#EVAL_DIR = "evaluation/gpt-5"
 
 def main():
     """

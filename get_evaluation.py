@@ -6,7 +6,7 @@ import json
 # Configuration
 API_URL = "https://api.x.ai/v1"  # Change this if using a custom endpoint
 API_KEY = open("C:/Users/berti/api_grok.txt", "r").read().strip()  # Replace with your actual API key
-MODEL_NAME = "gpt-5-csv-agent"  # The model name for the answers folder, e.g., "gpt-4"
+MODEL_NAME = "gpt-5"  # The model name for the answers folder, e.g., "gpt-4"
 EVAL_MODEL = "grok-4-fast-non-reasoning"  # Fixed evaluation model
 answers_dir = f"real_answers/{MODEL_NAME}"
 gt_dir = "gt_answers"
@@ -48,14 +48,14 @@ def process_file(filename):
             return
         
         # Prepare the comparison prompt
-        prompt = f"""Compare if the provided answer is equal to the ground-truth answer.
+        prompt = f"""Compare if the provided answer is equal (in the outcome, while the motivation steps can be different) to the ground-truth answer.
 Provided answer:
 {answer}
 
 Ground-truth answer:
 {gt}
 
-Respond with only "yes" if the answer is corresponding, or "no" otherwise."""
+Respond with only "yes" if the answer is corresponding (in the outcome), or "no" otherwise."""
         
         # Prepare the request
         endpoint = f"{API_URL}/chat/completions"
