@@ -6,8 +6,8 @@ import json
 # Configuration
 API_URL = "https://api.x.ai/v1"  # Change this if using a custom endpoint
 API_KEY = open("C:/Users/berti/api_grok.txt", "r").read().strip()  # Replace with your actual API key
-MODEL1 = "gpt-5"  # First model for comparison
-MODEL2 = "grok-4-fast-reasoning"  # Second model for comparison
+MODEL1 = "gpt-5-csv-agent"  # First model for comparison
+MODEL2 = "gpt-5-mini-csv-agent"  # Second model for comparison
 EVAL_MODEL = "grok-4-fast-non-reasoning"  # Fixed evaluation model
 answers_dir1 = f"real_answers/{MODEL1}"
 answers_dir2 = f"real_answers/{MODEL2}"
