@@ -4,9 +4,9 @@ import requests
 import json
 
 # Configuration
-API_URL = "https://api.openai.com/v1"  # Change this if using a custom endpoint
-API_KEY = open("C:/Users/berti/api_openai.txt", "r").read().strip()  # Replace with your actual API key
-MODEL_NAME = "gpt-5"  # Change to desired model, e.g., "gpt-4"
+API_URL = "https://openrouter.ai/api/v1"  # Change this if using a custom endpoint
+API_KEY = open("C:/Users/berti/api_openrouter.txt", "r").read().strip()  # Replace with your actual API key
+MODEL_NAME = "qwen/qwen3-235b-a22b-thinking-2507"  # Change to desired model, e.g., "gpt-4"
 answers_dir = "real_answers/" + MODEL_NAME
 
 def process_prompt(filename):
